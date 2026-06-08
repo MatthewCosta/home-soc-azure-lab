@@ -2,15 +2,15 @@
 
 ## Overview
 
-This repository documents my home SOC and Azure security lab. The lab is designed to demonstrate practical skills in Microsoft infrastructure, Azure security, SOC operations, vulnerability management, networking, endpoint security, incident response and controlled security testing.
+This repository documents my home SOC and Azure security lab. I am using this project to build and document hands-on experience with Microsoft infrastructure, Azure security, SOC operations, vulnerability management, networking, endpoint security and incident response.
 
-The environment is built around Proxmox, OPNsense, Active Directory, Windows clients, Wazuh, Kali Linux, vulnerable lab targets, OpenVAS/Greenbone and Microsoft cloud security tooling such as Entra ID, Intune, Microsoft Defender and Microsoft Sentinel.
+The lab is built around Proxmox and will include OPNsense, Active Directory, Windows clients, Wazuh, Kali Linux, vulnerable lab targets, OpenVAS/Greenbone and Microsoft cloud security tools such as Entra ID, Intune, Microsoft Defender and Microsoft Sentinel.
 
-The purpose of this project is to build a realistic, documented lab environment that can be used for hands-on technical learning, security investigation practice and professional portfolio evidence.
+My aim is to create a realistic lab environment that I can use for learning, testing, troubleshooting and building evidence of the work I have completed.
 
 ## Lab Goals
 
-The purpose of this lab is to build practical, hands-on experience in:
+The main goals of this lab are to practise and document:
 
 - Proxmox virtualisation and lab infrastructure
 - Network segmentation, firewalling and routing
@@ -19,7 +19,7 @@ The purpose of this lab is to build practical, hands-on experience in:
 - SIEM deployment, log collection and alert investigation
 - Vulnerability scanning, reporting and remediation
 - Attack simulation in an isolated lab environment
-- Incident response documentation and evidence handling
+- Incident response notes, timelines and evidence handling
 - Hybrid cloud and Azure security learning
 - Technical documentation and GitHub portfolio development
 
@@ -37,7 +37,7 @@ The purpose of this lab is to build practical, hands-on experience in:
 
 ## Planned Learning Phases
 
-This lab will be developed in stages:
+This lab will be built in stages:
 
 1. Infrastructure foundation
 2. Networking and firewall configuration
@@ -57,25 +57,31 @@ This lab will be developed in stages:
 
 | Folder | Purpose |
 |---|---|
-| docs/architecture | Lab overview, design decisions, VMID plan and VM inventory |
-| docs/networking | IP addressing, VLANs, firewall rules and routing notes |
-| docs/proxmox | Proxmox setup, storage, networking and VM build notes |
-| docs/windows | Windows Server, Windows clients and administration notes |
-| docs/active-directory | Domain services, DNS, users, groups and Group Policy |
-| docs/azure | Azure, Entra ID, Intune, Defender and Sentinel notes |
-| docs/soc | SIEM, logging, alert investigation and detection notes |
-| docs/vulnerability-management | Scanning, reporting and remediation evidence |
-| docs/incident-response | Investigation notes, timelines and response documentation |
-| diagrams | Network diagrams and architecture diagrams |
-| screenshots | Evidence screenshots for each stage |
-| scripts | PowerShell, Bash and automation scripts |
-| templates | Reusable report and documentation templates |
+| `00-lab-overview` | Lab overview, design decisions, VMID plan, VM inventory and general planning |
+| `01-proxmox-build` | Proxmox setup, storage, networking and VM build notes |
+| `02-network-design` | IP addressing, VLANs, firewall rules and routing notes |
+| `03-active-directory` | Windows Server, Active Directory, DNS, users, groups and Group Policy |
+| `04-microsoft-cloud` | Azure, Microsoft 365, Entra ID, Intune, Defender and Sentinel notes |
+| `05-siem-and-logging` | Wazuh, syslog, log forwarding, dashboards and alert investigation |
+| `06-vulnerability-management` | Vulnerability scanning, reporting and remediation evidence |
+| `07-attack-simulation` | Kali Linux, controlled attack simulation and isolated security testing |
+| `08-incident-response` | Investigation notes, timelines, evidence handling and response documentation |
+| `09-automation-and-scripting` | PowerShell, Bash, Python and automation tasks |
+| `10-monitoring-and-operations` | Monitoring, alerting, maintenance checks and operational documentation |
+| `11-devops-and-iac` | GitHub Actions, Terraform, CI/CD, Infrastructure as Code and GitOps |
+| `12-containers-and-kubernetes` | Docker, container security, Kubernetes and orchestration notes |
+| `13-advanced-security` | Advanced detection engineering, threat hunting and security hardening |
+| `14-capstone-and-portfolio` | Final projects, portfolio write-ups, reports and career evidence |
+| `diagrams` | Network diagrams and architecture diagrams |
+| `reports` | Lab reports, investigation summaries and vulnerability reports |
+| `screenshots` | Evidence screenshots for each stage |
+| `scripts` | Reusable PowerShell, Bash and Python scripts |
+| `templates` | Reusable report and documentation templates |
 
 ## Security Notice
 
-This repository is for educational and professional portfolio purposes only.
+This repository is for learning and portfolio purposes only.
 
 No passwords, API keys, licence keys, private certificates, tenant IDs, recovery keys, public IP addresses or sensitive personal information will be stored in this repository.
 
-All attack simulation and vulnerability testing will be performed only inside isolated lab environments owned and controlled by me.
-
+All attack simulation and vulnerability testing will be carried out only inside isolated lab environments that I own and control.
