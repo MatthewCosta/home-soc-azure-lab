@@ -137,16 +137,32 @@ Each section includes five reserved VMIDs for future expansion.
 
 ## Repository Structure
 
+This repository will be organised into the following sections as the lab develops:
+
+```text
+
 home-soc-azure-lab/
+
 ├── 00-lab-overview/
+
 ├── 01-proxmox-build/
+
 ├── 02-network-design/
+
 ├── 03-active-directory/
+
 ├── 04-microsoft-cloud/
+
 ├── 05-siem-and-logging/
+
 ├── 06-vulnerability-management/
+
 ├── 07-attack-simulation/
+
 ├── 08-incident-response/
+
 ├── diagrams/
+
 ├── screenshots/
+
 └── reports/
