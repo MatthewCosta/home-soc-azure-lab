@@ -76,7 +76,7 @@ This lab will be built in stages:
 | `reports` | Lab reports, investigation summaries and vulnerability reports |
 | `screenshots` | Evidence screenshots for each stage |
 | `scripts` | Reusable PowerShell, Bash and Python scripts |
-| `templates` | Reusable report and documentation templates |
+| `templates` | Reusable documentation templates, report formats and investigation notes |
 
 ## Security Notice
 
